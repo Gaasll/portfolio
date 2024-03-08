@@ -20,6 +20,7 @@ import snake from "../assets/snake2.jpg"
 import graph from "../assets/graph.png"
 import illumi from "../assets/ILL.png"
 import display from "../assets/display.jpg"
+import recruiting from "../assets/recr.png"
 
 export default {
   data() {
@@ -40,30 +41,37 @@ export default {
           link: "https://github.com/Gaasll/Illumi-Dance",
         },
 
-     
         {
           id: 3,
+          image: recruiting,
+          title: "Recruitment System",
+          description: "A robust recruitment system using modern technologies such as Node.js, Express, Next.js, React, TypeScript, and PostgreSQL.",
+          link: "https://github.com/danti58/Frontend_IV1201",
+        },
+     
+        {
+          id: 4,
           image: snake,
           title: "Snake Game",
-          description: "A simple snake game for UNO32 with Basic I/O Shield",
+          description: "A simple snake game for UNO32 with Basic I/O Shield.",
           link: "https://github.com/Gaasll/OperationsInt" ,
         },
         {
-          id: 4,
+          id: 5,
           image: display,
           title: "Social Security Number",
           description: "Using Arduino Uno and a breadboard got my social security number on a 7-segment display.",
           //link: "images/display.jpg" ,
         },
         {
-          id: 5,
+          id: 6,
           image: graph,
           title: "Soundgood Music School",
           description: "Planned and developed a database that handles a schools data using SQL and pgAdmin.",
           link: "https://github.com/Gaasll/Data_Storage_Project",
         },
         {
-          id: 6,
+          id: 7,
           image: short,
           title: "The Shortest Path",
           description: "Created a memory-efficient algorithm that finds the shortest distance between X and Y.",
